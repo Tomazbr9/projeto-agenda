@@ -4,6 +4,17 @@ pip install django
 django-admin startproject project .
 python manage.py startapp contact
 
+
+migrando a base de dados do django
+
+python manage.py makemigrations
+python manage.py migrate
+
+criando e modificando a senha de um usuario django
+
+python manage.py createsuperuser
+python manage.py changepassword nomeusuario
+
 Configurar o git
 
 git config --global user.name 'Seu nome'
